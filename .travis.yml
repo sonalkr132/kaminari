@@ -9,19 +9,9 @@ services:
 rvm:
   - 2.7.0
   - 2.6.3
-  - 2.5.5
-  - 2.4.5
-  - 2.3.8
-  - jruby-9.2.9.0
-  # - rbx-3
 
 gemfile:
   - gemfiles/active_record_60.gemfile
-  - gemfiles/active_record_52.gemfile
-  - gemfiles/active_record_51.gemfile
-  - gemfiles/active_record_50.gemfile
-  - gemfiles/active_record_42.gemfile
-  - gemfiles/active_record_41.gemfile
   - gemfiles/active_record_edge.gemfile
 
 env:
