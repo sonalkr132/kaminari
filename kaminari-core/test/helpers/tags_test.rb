@@ -8,6 +8,7 @@ if defined?(::Rails::Railtie) && defined?(ActionView)
       setup do
         self.params[:controller] = 'users'
         self.params[:action]     = 'index'
+        self.params[:params]     = 'thing'
       end
 
       sub_test_case 'for first page' do
